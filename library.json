@@ -5,7 +5,7 @@
   "keywords": "log, esp32, esp8266, atmega, logger, uart, debug",
   "repository": {
     "type": "git",
-    "url": "https://github.com/twoj-uzytkownik/MojaMrugaczka.git"
+    "url": "https://github.com/lklich/LKLog"
   },
   "authors": [
     {
