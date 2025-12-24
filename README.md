@@ -72,7 +72,6 @@ build_flags = -Wl,-u,vfprintf -lprintf_flt -lm
 
 ```
 void setup() {
-  Serial.begin(9600);
   LKLog::getInstance().begin(9600);
   LKLog::getInstance().logInfo("TEST", "To jest test INFO");
   LKLog::getInstance().logError("TEST", "To jest test ERROR");
