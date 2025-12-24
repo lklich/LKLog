@@ -1,0 +1,21 @@
+{
+  "name": "LKLog",
+  "version": "1.0.0",
+  "description": "A lightweight, cross-platform logging library for Arduino. It provides a unified API with printf-style formatting and utilizes native ESP-IDF logging (esp_log) on ESP32 for colored, high-performance output, while falling back to optimized Serial logging on ESP8266 and AVR (Atmega). Ideal for debugging multi-module projects using the Singleton pattern.",
+  "keywords": "log, esp32, esp8266, atmega, logger, uart, debug",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twoj-uzytkownik/MojaMrugaczka.git"
+  },
+  "authors": [
+    {
+      "name": "Leszek Klich",
+      "email": "leszek.klich@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "license": "GPL-3.0",
+  "frameworks": "arduino",
+  "platforms": ["espressif32", "espressif8266", "atmelavr", "pico"],
+  "dependencies": {}
+}
